@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfileActivity">
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="centerCrop"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/green_househero_100"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:text="Bienvenid@ a HOUSEHERO!">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:textColorHint="#8C8484"
+        android:id="@+id/etUserName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:hint="Nombre"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvInfo">
+
+    </EditText>
+
+    <EditText
+        android:textColorHint="#8C8484"
+        android:textColor="@color/black"
+        android:id="@+id/etUserSurname"
+        android:paddingLeft="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint="Apellidos / Nombre de la empresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/etUserName">
+
+    </EditText>
+    <EditText
+
+        android:textColorHint="#8C8484"
+        android:textColor="@color/black"
+        android:id="@+id/etEmail"
+        android:paddingLeft="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint="email@example.com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/etUserSurname">
+
+    </EditText>
+
+    <EditText
+
+        android:textColorHint="#8C8484"
+        android:textColor="@color/black"
+        android:id="@+id/etNumber"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:hint="Teléfono"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail">
+
+    </EditText>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteCity"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint="Ciudad"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#8C8484"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNumber"
+        />
+
+    <Spinner
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+    android:id="@+id/spinner_roles"
+    android:layout_width="250dp"
+        android:background="@color/white"
+    android:layout_height="50dp"
+    android:spinnerMode="dropdown"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/autoCompleteCity"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_roles"
+        android:backgroundTint="@color/green_househero_100"
+        >
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:enabled="false">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

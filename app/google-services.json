@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "731663192193",
+    "firebase_url": "https://househero-nbsa-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "househero-nbsa",
+    "storage_bucket": "househero-nbsa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731663192193:android:8c47a06efc12a9372dfd80",
+        "android_client_info": {
+          "package_name": "com.nasch.househero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXG9k7zdC8gXMxXQXJC-67eyYKYxVSz3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

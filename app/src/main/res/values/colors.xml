@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="AppColor">#F47F2A</color>
+    <color name="green_househero_100">#879078</color>
+    <color name="AppColor_light">#33F47F2A</color>
+
+
+
+</resources>
