@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SearchServiceActivity">
 
-    <!-- Tu imagen de fondo -->
+
     <ImageView
         android:id="@+id/backgroundImage"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:scaleType="centerCrop"
         />
 
-    <!-- Título o información -->
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cvInfo"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:padding="20dp"
             android:text="¡Hola!">
         </TextView>
@@ -213,11 +213,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-
-
-        <!-- Repite el CardView anterior para cada servicio -->
-        <!-- Asegúrate de cambiar el ID del CheckBox y TextView para cada servicio -->
-
     </LinearLayout>
 
 
@@ -375,8 +370,7 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-        <!-- Repite el CardView anterior para cada servicio -->
-        <!-- Asegúrate de cambiar el ID del CheckBox y TextView para cada servicio -->
+
 
     </LinearLayout>
 

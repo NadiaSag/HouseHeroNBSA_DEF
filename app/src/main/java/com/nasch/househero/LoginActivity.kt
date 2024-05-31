@@ -58,7 +58,7 @@ class LoginActivity : AppCompatActivity() {
                     updateUI(null)
                 }
             }
-        // [END sign_in_with_email]
+
     }
 
     private fun updateUI(user: FirebaseUser?) {

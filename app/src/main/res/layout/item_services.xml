@@ -26,11 +26,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="sans-serif-medium"
             android:textSize="16sp"
             tools:text="Prueba"/>
 
         <TextView
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/tvpProfName"
@@ -42,6 +43,7 @@
             tools:text="Prueba"/>
 
         <TextView
+            android:fontFamily="sans-serif-medium"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/tvServices"
             android:id="@+id/tvEmail"
@@ -52,6 +54,7 @@
             tools:text="Prueba"/>
 
         <TextView
+            android:fontFamily="sans-serif-medium"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/tvEmail"
             android:id="@+id/tvPhoneNum"

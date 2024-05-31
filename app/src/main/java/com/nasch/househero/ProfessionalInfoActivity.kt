@@ -86,7 +86,6 @@ class ProfessionalInfoActivity : AppCompatActivity() {
                         val phoneNum = professionalSnapshot.child("phoneNumber").value?.toString()
                         val location = professionalSnapshot.child("userLocation").value?.toString()
 
-                        // Aquí puedes verificar si los valores son nulos antes de establecer los TextViews
                         email?.let { tvEmail.text = it }
                         phoneNum?.let { tvPhoneNum.text = it }
                         location?.let { tvLocation.text = it }

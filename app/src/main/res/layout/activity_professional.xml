@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
-    <!-- Tu imagen de fondo -->
     <ImageView
         android:id="@+id/backgroundImage"
         android:layout_width="match_parent"
@@ -15,7 +14,6 @@
         android:scaleType="centerCrop"
         />
 
-    <!-- Título o información -->
     <androidx.cardview.widget.CardView
         android:id="@+id/cvInfo"
         android:layout_width="match_parent"
