@@ -40,11 +40,7 @@ class SearchServiceActivity : AppCompatActivity() {
             val userLocation = autoCompleteCity.text.toString()
             if (userLocation.isNotEmpty()) {
                 buscarUsuarios(userLocation)
-                Toast.makeText(
-                    baseContext,
-                    "¡Información guardada!",
-                    Toast.LENGTH_SHORT
-                ).show()
+
             } else {
                 Toast.makeText(
                     baseContext,
